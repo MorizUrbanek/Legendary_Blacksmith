@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3318a4ceb8cca5a45bf423b18e622758, type: 3}
+  m_Name: Adrenaline
+  m_EditorClassIdentifier: 
+  ConditionType: 5
+  handler:
+    type: 5
+    popUpColor: {r: 0, g: 0, b: 0, a: 0}
+    sprite: {fileID: 1870898176, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+    timeInSec: 5
+    statChangeValues:
+    - type: 7
+      value: 0.05
+    - type: 2
+      value: 2
+    maxStacks: 5

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d79557b51207d3459de83920527c049, type: 3}
+  m_Name: Spin Spatial Left
+  m_EditorClassIdentifier: 
+  slashVFX: {fileID: 1011191742018456, guid: 7f8d8816644cdb54094d7d5c9144fd33, type: 3}
+  type: 9
+  interactions:
+  - attackType: 1
+    time: 0.2
+    damage: 15
+    hitRange: 2
+    hitAngle: 65
+    isBox: 0
+    boxRange: 0
+    popCondition: 0
+  - attackType: 1
+    time: 0.5
+    damage: 17
+    hitRange: 10
+    hitAngle: 85
+    isBox: 0
+    boxRange: 0
+    popCondition: 0

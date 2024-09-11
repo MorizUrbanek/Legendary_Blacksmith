@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23657a98ddceddf40a0c0b3ab5f6cf76, type: 3}
+  m_Name: Sword_Base
+  m_EditorClassIdentifier: 
+  weaponStats:
+    weaponPrefab: {fileID: 1278061086095828802, guid: 0ea7f6d8043b03445874666efc800b0d,
+      type: 3}
+    Slashes:
+    - {fileID: 11400000, guid: 5a16ec30ee57e6e4baff064a48d6f1c1, type: 2}
+    - {fileID: 11400000, guid: f919dc4fb31d73741b5c3c90d0aee335, type: 2}
+    - {fileID: 11400000, guid: 002e94b2b0d62e242bf989780dffa5c6, type: 2}
+    - {fileID: 11400000, guid: bfd5443d6d99fc947ba415c53cb969c4, type: 2}
+    slashColor: {r: 0.6438493, g: 0.41037738, b: 1, a: 1}
+    canChangeBladeColor: 1
+    statChangeValues:
+    - type: 2
+      value: 10
+    - type: 7
+      value: 0.2
+    passivs: []
+    weaponDamage: 50
+    attack1: {fileID: 11400000, guid: e61ecf6cc0b706b44a9ee4f414ea866d, type: 2}
+    attack2: {fileID: 11400000, guid: d38378b43d31ae845a8a6993231fc472, type: 2}
+    specialAttack: {fileID: 11400000, guid: c8965f8b74eddaf428fa83b8cae01a64, type: 2}
+  weaponName: 1

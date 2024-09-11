@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582abac7ab8b5744384ed0bd8b3e4058, type: 3}
+  m_Name: Frost
+  m_EditorClassIdentifier: 
+  ConditionType: 1
+  handler:
+    type: 1
+    popUpColor: {r: 0.3537736, g: 0.979154, b: 1, a: 1}
+    sprite: {fileID: -1107025847, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
+    timeInSec: 3
+    statChangeValue:
+      type: 6
+      value: 0.3

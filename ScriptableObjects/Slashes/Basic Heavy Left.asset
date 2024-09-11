@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d79557b51207d3459de83920527c049, type: 3}
+  m_Name: Basic Heavy Left
+  m_EditorClassIdentifier: 
+  slashVFX: {fileID: 1485466043327710, guid: 5c9915bd1a496f940a5caedb8a1d9a4f, type: 3}
+  type: 3
+  interactions:
+  - attackType: 0
+    time: 0.1
+    damage: 15
+    hitRange: 3
+    hitAngle: 90
+    isBox: 0
+    boxRange: 0
+    popCondition: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d79557b51207d3459de83920527c049, type: 3}
+  m_Name: Magic Sword
+  m_EditorClassIdentifier: 
+  slashVFX: {fileID: 1644958980890870, guid: f7ad1ece0bab243468db7f0616265c3e, type: 3}
+  type: 7
+  interactions:
+  - attackType: 0
+    time: 0.5
+    damage: 10
+    hitRange: 12
+    hitAngle: 0
+    isBox: 1
+    boxRange: 0.75
+    popCondition: 0
+  - attackType: 0
+    time: 1
+    damage: 5
+    hitRange: 12
+    hitAngle: 0
+    isBox: 1
+    boxRange: 0.75
+    popCondition: 0
